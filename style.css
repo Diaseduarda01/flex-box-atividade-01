@@ -1,0 +1,91 @@
+body {
+    margin: 0; /* Remove a margem padrão do corpo da página */
+    background-color: #f8f8f8; /* Define a cor de fundo da página como cinza claro */
+    color: #212427; /* Define a cor padrão do texto como um tom escuro (quase preto) */
+}
+
+h1 {
+    width: fit-content; /* Ajusta a largura do h1 ao tamanho do seu conteúdo */
+    margin: auto; /* Centraliza o h1 horizontalmente na página */
+}
+
+.caixa {
+    border-radius: 5px; /* Arredonda os cantos de qualquer elemento com a classe 'caixa' */
+}
+
+.pai {
+    width: 80%; /* Define que o contêiner pai ocupará 80% da largura disponível */
+    height: 350px; /* Define uma altura fixa de 350px para o contêiner pai */
+    margin: auto; /* Centraliza o contêiner pai horizontalmente na página */
+    background-color: antiquewhite; /* Define a cor de fundo como uma cor clara (antiquewhite) */
+    border: solid 2px #212427; /* Aplica uma borda sólida de 2px com a cor escura (#212427) ao redor do contêiner */
+    
+    display: flex; /* Ativa o Flexbox para alinhar os filhos dentro do contêiner */
+    justify-content: space-between; /* Distribui os filhos com espaço igual entre eles no eixo principal */
+    align-items: center; /* Centraliza os filhos verticalmente no eixo transversal */
+    flex-direction: column; /* Alinha os filhos em uma coluna (verticalmente) */
+}
+
+.filho1 {
+    width: 80px; /* Define a largura dos elementos filhos como 80px */
+    height: 80px; /* Define a altura dos elementos filhos como 80px */
+    justify-content: center; /* Centraliza os conteúdos dentro dos filhos no eixo principal */
+    border-radius: 50px; /* Arredonda completamente os cantos dos filhos, transformando-os em círculos */
+    text-align: center; /* Centraliza o texto dentro dos filhos */
+    flex-direction: row; /* (Redundante aqui, pois o Flexbox não foi ativado no 'filho') Define a direção flex como linha, mas sem efeito nesse contexto */
+    left: -568px; 
+    top: 0px;
+    position: relative;
+}
+.filho2 {
+    width: 80px; /* Define a largura dos elementos filhos como 80px */
+    height: 80px; /* Define a altura dos elementos filhos como 80px */
+    justify-content: center; /* Centraliza os conteúdos dentro dos filhos no eixo principal */
+    border-radius: 50px; /* Arredonda completamente os cantos dos filhos, transformando-os em círculos */
+    text-align: center; /* Centraliza o texto dentro dos filhos */
+    flex-direction: row; /* (Redundante aqui, pois o Flexbox não foi ativado no 'filho') Define a direção flex como linha, mas sem efeito nesse contexto */
+    position: relative;
+    top: 135px;
+    left: -220px;
+}
+.filho3 {
+    width: 80px; /* Define a largura dos elementos filhos como 80px */
+    height: 80px; /* Define a altura dos elementos filhos como 80px */
+    justify-content: center; /* Centraliza os conteúdos dentro dos filhos no eixo principal */
+    border-radius: 50px; /* Arredonda completamente os cantos dos filhos, transformando-os em círculos */
+    text-align: center; /* Centraliza o texto dentro dos filhos */
+    flex-direction: row; /* (Redundante aqui, pois o Flexbox não foi ativado no 'filho') Define a direção flex como linha, mas sem efeito nesse contexto */
+   position: relative;
+   left: -408px;
+   top: -130px;
+}
+
+.cor1 {
+    background-color: #ED145B; /* Define o fundo como vermelho (#ED145B) para elementos com essa classe */
+}
+
+.cor2 {
+    background-color: #63B1BC; /* Define o fundo como azul claro (#63B1BC) para elementos com essa classe */
+}
+
+.cor3 {
+    background-color: #EFB661; /* Define o fundo como amarelo claro (#EFB661) para elementos com essa classe */
+}
+
+.instrucoes {
+    width: 80%; /* Define a largura das instruções como 80% da área disponível */
+    margin: auto; /* Centraliza horizontalmente o bloco de instruções na página */
+    text-align: left; /* Alinha o texto dentro das instruções à esquerda */
+}
+
+.footer {
+    background-color: antiquewhite; /* Define a cor de fundo do rodapé como 'antiquewhite' */
+    height: 130px; /* Define a altura do rodapé como 130px */
+    margin-top: 50px; /* Adiciona uma margem superior de 50px para separar o rodapé do conteúdo anterior */
+    padding-top: 20px; /* Adiciona um preenchimento superior de 20px dentro do rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+}
+
+img {
+    width: 20%; /* Define que as imagens ocupem 20% da largura do contêiner onde estão */
+}
